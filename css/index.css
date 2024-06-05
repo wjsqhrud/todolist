@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "omyu_pretty";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: "omyu_pretty";
+}
+.todo__container {
+  max-width: 783px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.todo__container__date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.todo__container__date .date {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.todo__container__date .day {
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.todo__container__date .month {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.todo__container__date .year {
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.todo__container__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo__container__addBox {
+  margin-top: 20px;
+}
+
+.todo__container__addBox__addBtn {
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  background-color: #28e745;
+  color: white;
+  padding: 10px 20px;
+}
+
+.todo__container__addBox__input {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.complete_btn {
+  color: #ccc;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  background-color: white;
+}
+
+.smile_icon {
+  color: #28a745;
+}
+
+.delete_btn {
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: white;
+  color: #ccc;
+}
+.todo__container__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn__container {
+  display: flex;
+}
